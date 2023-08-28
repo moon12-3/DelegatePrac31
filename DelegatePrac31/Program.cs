@@ -24,6 +24,7 @@ namespace DelegatePrac31
                 new Product() { Name = "상추", Price = 300 },
             };
             // 정렬
+            // 1. Delegate를 활용한 구현 방법
             products.Sort(SortWithPrice);
 
             //출력
